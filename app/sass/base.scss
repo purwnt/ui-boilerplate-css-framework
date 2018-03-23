@@ -1,0 +1,9 @@
+//Base scss
+
+@import 'reset';
+@import 'color';
+$primary-color: #f00;
+
+body {
+    color: $primary-color;
+}

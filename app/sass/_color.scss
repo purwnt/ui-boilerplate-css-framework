@@ -1,0 +1,163 @@
+// Color
+$red: #F44336;
+$redlight: #EF9A9A;
+$reddark: #C62828;
+
+$pink: #E91E63;
+$pinklight: #F48FB1;
+$pinkdark: #AD1457;
+
+$purple: #9C27B0;
+$purplelight: #CE93D8;
+$purpledark: #9C27B0;
+
+$deeppurple: #673AB7;
+$deeppurplelight: #B39DDB;
+$deeppurpledark: #4527A0;
+
+$indigo: #3F51B5;
+$indigolight: #9FA8DA;
+$indigodark: #283593;
+
+$blue: #2196F3;
+$bluelight: #90CAF9;
+$bluedark: #1565C0;
+
+$clearblue: #03A9F4;
+$clearbluelight: #81D4FA;
+$clearbluedark: #0277BD;
+
+$cyan: #00BCD4;
+$cyanlight: #80DEEA;
+$cyandark: #00838F;
+
+$teal: #009688;
+$teallight: #80CBC4;
+$tealdark: #00695C;
+
+$green: #4CAF50;
+$greenlight: #A5D6A7;
+$greendark: #2E7D32;
+
+$cleargreen: #8BC34A;
+$cleargreenlight: #C5E1A5;
+$cleargreendark: #558B2F;
+
+$lime: #CDDC39;
+$limelight: #E6EE9C;
+$limedark: #9E9D24;
+
+$yellow: #FFEB3B;
+$yellowlight: #FFF59D;
+$yellowdark: #F9A825;
+
+$amber: #FFC107;
+$amberlight: #FFE082;
+$amberdark: #FF8F00;
+
+$orange: #FF9800;
+$orangelight: #FFCC80;
+$orangedark: #EF6C00;
+
+$deeporange: #FF5722;
+$deeporangelight: #FFAB91;
+$deeporangedark: #D84315;
+
+$brown: #795548;
+$brownlight: #BCAAA4;
+$browndark: #4E342E;
+
+$grey: #9E9E9E;
+$greylight: #EEEEEE;
+$greydark: #424242;
+
+$cleargrey: #607D8B;
+$cleargreylight: #B0BEC5;
+$cleargreydark: #37474F;
+
+$black: #000000;
+$white: #FFFFFF;
+
+
+
+
+/*--Color--*/
+.red {
+    background-color: #F44336 !important;
+}
+.redlight {
+    background-color: #ef9a9a !important;
+}
+.reddark {
+    background-color: #c62828 !important;
+}
+.blue {
+    background-color: #2196F3 !important;
+}
+.bluelight {
+    background-color: #81d4fa !important;
+}
+.bluedark {
+    background-color: #0277bd !important;
+}
+
+.black {
+    background-color: #000000 !important;
+}
+.white {
+    background-color: #FFFFFF !important;
+}
+.transparent {
+    background-color: transparent !important;
+}
+
+
+
+/*--Gradient Color--*/
+.red-redlight {
+    background: -webkit-linear-gradient(left, #F44336 , #ef9a9a);
+    background: -o-linear-gradient(right, #F44336, #ef9a9a);
+    background: -moz-linear-gradient(right, #F44336, #ef9a9a);
+    background: linear-gradient(to right, #F44336 , #ef9a9a);
+}
+.red-reddark {
+    background: -webkit-linear-gradient(left, #F44336 , #c62828);
+    background: -o-linear-gradient(right, #F44336, #c62828);
+    background: -moz-linear-gradient(right, #F44336, #c62828);
+    background: linear-gradient(to right, #F44336 , #c62828);
+}
+.red-blue {
+    background: -webkit-linear-gradient(left, #F44336 , #2196F3);
+    background: -o-linear-gradient(right, #F44336, #2196F3);
+    background: -moz-linear-gradient(right, #F44336, #2196F3);
+    background: linear-gradient(to right, #F44336 , #2196F3);
+}
+.red-bluelight {
+    background: -webkit-linear-gradient(left, #F44336 , #81d4fa);
+    background: -o-linear-gradient(right, #F44336, #81d4fa);
+    background: -moz-linear-gradient(right, #F44336, #81d4fa);
+    background: linear-gradient(to right, #F44336 , #81d4fa);
+}
+.red-bluedark {
+    background: -webkit-linear-gradient(left, #F44336 , #0277bd);
+    background: -o-linear-gradient(right, #F44336, #0277bd);
+    background: -moz-linear-gradient(right, #F44336, #0277bd);
+    background: linear-gradient(to right, #F44336 , #0277bd);
+}
+
+
+
+
+/*--Text Color--*/
+.red-text {
+    color: #F44336 !important;
+}
+.black-text {
+    color: #000000 !important;
+}
+.white-text {
+    color: #FFFFFF !important;
+}
+.transparent-text {
+    color: transparent !important;
+}
